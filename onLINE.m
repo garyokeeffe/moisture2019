@@ -1,5 +1,9 @@
  function onIT = onLINE(v,A,B)
 %% onLINE finds out if v=(x,y) is on the line segment AB
+
+% Citation information available here: https://doi.org/10.5281/zenodo.2532261
+
+
 % This function requires A and B to have 2 elements. Further to this, it
 % allows v to be (2,N) or (N,2) in size -- where N is a positive integer.
 % This function returns a vector of length N which stores true values
