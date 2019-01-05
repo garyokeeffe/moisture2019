@@ -1,6 +1,8 @@
 function theta=LiftPhi(phi, H, phi0, Hstar, A,B,C,D)
 %% LiftPhi converts phi into theta and returns the associated theta value.
 
+% Citation information available here: https://doi.org/10.5281/zenodo.2532261
+
 % Note: that each phi value has two components, phi1 and phi2 such that
 % phi=[phi1; phi2]; H is the height of the bauxite; phi0 is the vector value
 % of phi when there is no bauxite present; Hstar is 1x3 and contains the
